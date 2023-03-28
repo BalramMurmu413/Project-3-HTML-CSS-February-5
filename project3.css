@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* body */
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image:  url(../Assets/bg.png) ;
+    background-repeat: no-repeat;
+    background-position:  center;
+    background-attachment: fixed;
+    background-size: contain ;
+    /* background-size: 730px ; */
+
+
+    /* --------------- */
+    /* -----How to strech background image please remarks on mail------ */
+    /* --------------------------------- */
+
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+img, a{
+    color: #FFF;
+    cursor: pointer;
+    /* font-family: 'Poppins', sans-serif; */
+font-family: 'Roboto', sans-serif;
+
+}
+
+
+.logo{
+    display: inline-block;
+    position: absolute;
+    left: 25px;
+    top: 10px;
+    }
+
+    .logo img{
+        cursor: pointer;
+        width: 120px;
+    }
+
+.menu{
+    display: block;
+    width: 53%;
+    margin:10px auto;
+    font-weight: 600;
+
+
+}
+.menu li{
+display: inline-block;
+font-size: 12px;
+cursor: pointer;
+letter-spacing: 1px;
+
+padding: 10px;
+
+}
+
+
+
+.token{
+    letter-spacing: 1px;
+    display:inline-block;
+    right: 20px;
+    top: 15px;
+    position: absolute;
+    cursor: pointer;
+
+
+    /* font-size: 12px; */
+    /* border: 2px solid #f10000; */
+    }
+
+    
+    button{
+        background-color: #ba27ba;
+        cursor: pointer;
+        /* font-weight: 600; */
+
+        display:inline-block;
+        color: #FFF;
+        padding: 3px 12px ;
+        border-radius: 3px;
+        border: 2px solid #ba27ba;
+        /* fonts */
+        /* font-family: 'Poppins', sans-serif; */
+font-family: 'Roboto', sans-serif;
+    }
+
+    /* -------------- */
+    /* -----main-content-------- */
+    /* --------------------- */
+
+    .main-content{
+        width: 50%;
+        margin: 50px auto;
+    }
+    h1, p{
+        text-align: center;
+        color: #fff;
+        /* fonts */
+   
+    }
+    h1{
+        font-size: 50px;
+        font-family: 'Poppins', sans-serif;
+/* font-family: 'Roboto', sans-serif; */
+    }
+
+    .explore-more{
+        width: 17%;
+    letter-spacing: .5px;
+    margin: 50px auto;
+    }
+/* ------------ */
+    /* media query */
+    /* ------------- */
+
+    li:hover{
+     
+        background-color: #ba27ba;
+        padding: 10px;
+        border-radius: 4px;
+    }
+    button:hover{
+        background: transparent;
+        /* color: #ba27ba; */
+        color: #fff;
+        border: 2px solid #ba27ba;
+    }
